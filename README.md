@@ -22,6 +22,7 @@ Better **understanding how to use messenger's Send API and others API.**
 
 ```
 pip install -r requirements.txt
+```
 
 4 - And that's it , you can start using this project now.
 
@@ -29,5 +30,6 @@ pip install -r requirements.txt
 
 ```
 gunicorn --workers 4 --bind localhost:5566 chatbot.wsgi:flask_app
+```
 
 You can expose it by using **ngrok** or another similar tool.
